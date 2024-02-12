@@ -7,7 +7,7 @@ use PHPUnit\Framework\Assert as PHPUnit;
 use Illuminate\Support\Arr;
 
 /**
- * @method self assertSeeInOrder(array $values, bool $escape) $this
+ * @mixin \Illuminate\Http\Response
  */
 trait MakesAssertions
 {
